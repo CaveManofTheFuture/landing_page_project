@@ -1,5 +1,5 @@
 html, body{
- height: 300vh;
+ height: 200vh;
  width: auto;
  box-sizing: border-box;
  margin: 0px;
@@ -104,7 +104,7 @@ html, body{
 
 .maincontent{
  background-color: white;
- height: 245vh;
+ height: 145vh;
  width: auto;
  display: flex;
  flex-direction: column;
@@ -147,3 +147,91 @@ html, body{
  font-size: 36px;
  margin: 0px;
 }
+
+.main2ndpart{
+ display: flex;
+ flex-direction: column;
+ margin-top: 120px;
+ height: 40vh;
+ width: 100%;
+ box-shadow: 1px 1px 10px rgb(0 0 0/.2);
+ background-color: #dce1e8;
+ border-radius: 5px;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px; 
+}
+
+.quote2ndpart{
+ display: flex;
+ align-self: flex-end;
+ padding-right: 200px
+
+}
+
+
+
+.quote{
+ font-family: serif;
+ font-size: 32px;
+}
+
+.quoteauthor{
+ font-family: serif;
+ font-size: 32px;
+ font-weight: bold;
+
+}
+
+.ad{
+ display: flex;
+ padding-top: 10px;
+ padding-left: 50px;
+ margin-top: 100px;
+ height: 150px; 
+ background-color: dodgerblue;
+ width: 1000px;
+ margin-bottom: 100px;
+ border-radius: 10px;
+ justify-content: center;
+ align-items: center;
+ gap: 150px;
+ box-shadow: 1px 1px 10px rgb(0 0 0/.2);
+
+}
+
+.adheader{
+ font-size: 32px;
+ margin: 0px;
+ color: white;
+ font-weight: bold;
+}
+
+.adtext{
+ font-size: 23px;
+ margin: 0px;
+ color: white;
+ font-weight: bold;
+
+}
+
+.adbttn{
+ color: white;
+ border-radius: 10px;
+ padding: 5px;
+ border: 2px solid white;
+ font-size: 16px;
+ background-color: dodgerblue;
+ width: 100px;
+}
+
+.adbttn:active{
+ transform: translateY(4px);
+ opacity: 50%;
+}
+
+.adbttn:hover{
+ cursor: pointer;	
+}
+
+
