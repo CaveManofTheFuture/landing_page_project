@@ -20,10 +20,10 @@ html, body{
 }
 
 .headerfirstpart{
- margin-bottom: 70px;
+ margin-bottom: 50px;
  padding: 0px;
  display: flex;
- gap: 800px; 
+ gap: 1200px; 
  justify-content: space-between;
  align-items: center;
 }
@@ -44,19 +44,21 @@ html, body{
 
 .headersecondpart{
  display: flex;
- gap: 20px;
+ gap: 40px;
 }
 
 .headersecondpartleftpart{
  display: flex;
  flex-direction: column;
  margin: 0px;
+ justify-content: center;
 }
 
 .headerpart2sublogo{
  font-size: 32px;
  color: white;
  font-weight: bold;
+ margin: 0px;
 
 }
 
@@ -94,15 +96,15 @@ html, body{
  display: flex;
 }
 
-ul{
+.listsinheader{
  list-style-type: none;
  display: flex;
- gap: 14px;
+ gap: 20px;
 }
 
 .maincontent{
  background-color: white;
- height: 240vh;
+ height: 245vh;
  width: auto;
  display: flex;
  flex-direction: column;
@@ -110,12 +112,38 @@ ul{
 }
 
 .footer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
  padding: 2px;
- text-align: center;
- font-size: 32px;
+ font-size: 20px;
  color: white;
- height: 10vh;
+ height: 6.5vh;
  width: auto;
  background-color: #1F2937;
 }
 
+.maincontentlist{
+ display: flex;
+ margin-top: 0px;
+ padding: 5px;
+ list-style-type: none;
+ display: flex;
+ gap: 50px;
+ font-size: 20px;
+
+}
+
+.mainimages{
+ display: block;
+ margin-bottom: 16px;
+ border-radius: 8px;
+ height: 20vh;
+ width: auto;
+ box-shadow: 1px 1px 5px rgb(0 0 0/.4);
+}
+
+.headermaincontent{
+ font-size: 36px;
+ margin: 0px;
+}
