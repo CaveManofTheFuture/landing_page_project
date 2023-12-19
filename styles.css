@@ -1,21 +1,22 @@
 html, body{
- height: 200vh;
+ height: 300vh;
  width: auto;
  box-sizing: border-box;
  margin: 0px;
  padding: 0px;
  display: flex;
  flex-direction: column;
- flex-wrap: wrap;
 }
 
 .header{
  display: flex;
+ margin: 0px;
  padding: 0px;
  flex-direction: column;
  align-items: center;
  background-color: #1F2937;
  height: 50vh; 
+ width: auto;
 }
 
 .headerfirstpart{
@@ -43,17 +44,13 @@ html, body{
 
 .headersecondpart{
  display: flex;
- justify-content: center;
- gap: 40px;
+ gap: 20px;
 }
 
 .headersecondpartleftpart{
+ display: flex;
  flex-direction: column;
  margin: 0px;
- gap: 20px;
- height: 300vh;
- width: auto;
- 
 }
 
 .headerpart2sublogo{
@@ -94,6 +91,7 @@ html, body{
 .headerimage{
  border-radius: 8px;
  box-shadow: 1px 5px 10px rgb(0 0 0/.3);
+ display: flex;
 }
 
 ul{
@@ -101,3 +99,23 @@ ul{
  display: flex;
  gap: 14px;
 }
+
+.maincontent{
+ background-color: white;
+ height: 240vh;
+ width: auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.footer{
+ padding: 2px;
+ text-align: center;
+ font-size: 32px;
+ color: white;
+ height: 10vh;
+ width: auto;
+ background-color: #1F2937;
+}
+
